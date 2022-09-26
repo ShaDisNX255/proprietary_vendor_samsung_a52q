@@ -14,36 +14,30 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # BRI OMC (A52SXQ_CHN_TW)
-          - model: "SM-A528B"
-            region: "BRI"
           # ODM OMC
-          - model: "SM-A528B"
+          - model: "SM-A525F"
             region: "INS"
           # OJM OMC
-          - model: "SM-A528B"
+          - model: "SM-A525F"
             region: "EGY"
-          # OKR OMC
-          - model: "SM-A528N"
-            region: "KOO"
           # OLE OMC
-          - model: "SM-A528B"
+          - model: "SM-A525F"
             region: "XID"
           # OLM OMC
-          - model: "SM-A528B"
+          - model: "SM-A525F"
             region: "XSA"
           # OWA OMC
-          - model: "SM-A528B"
+          - model: "SM-A525F"
             region: "CDR"
           # OWM OMC
-          - model: "SM-A528B"
+          - model: "SM-A525M"
             region: "TGP"
           # OWO OMC
-          - model: "SM-A528B"
+          - model: "SM-A525M"
             region: "PEO"
           # OXM OMC
-          - model: "SM-A528B"
-            region: "BTU"
+          - model: "SM-A525F"
+            region: "SER"
 
     steps:
       - name: Checkout repo
