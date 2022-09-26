@@ -27,7 +27,7 @@ jobs:
           - model: "SM-A525F"
             region: "XSA"
           # OWA OMC
-          - model: "SM-A525F"
+          - model: "SM-A525M"
             region: "CDR"
           # OWM OMC
           - model: "SM-A525M"
@@ -107,7 +107,7 @@ jobs:
       - name: Extract kernel images
         if: steps.check.outputs.need_update == 1
         env:
-          FILES: boot.img.lz4 dtbo.img.lz4 vbmeta.img.lz4 vendor_boot.img.lz4
+          FILES: boot.img.lz4 dtbo.img.lz4 vbmeta.img.lz4
         run: |
           for file in $FILES; do tar xvf ${{ steps.files.outputs.ap }} ${file}; done
           tar cvf ${{ steps.check.outputs.latest_shortversion }}_kernel.tar *.lz4
