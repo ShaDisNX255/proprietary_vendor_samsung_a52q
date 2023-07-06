@@ -16,6 +16,7 @@ To [download](https://github.com/ShaDisNX255/proprietary_vendor_samsung_a52q/rel
 | OWO | PEO |
 | OXM | SER |
 
-Credits to [@jesec](https://github.com/jesec) and [@corsicanu](https://github.com/corsicanu) for the original GitHub Actions script.
-
-Aditional credits to [@BlackMesa123](https://github.com/BlackMesa123) for helping me set it up for A52 4G
+### Credits
+- [@jesec](https://github.com/jesec) and [@corsicanu](https://github.com/corsicanu) for the original GitHub Actions script.
+- [@unix3dgforce](https://github.com/unix3dgforce) for his [lpunpack.py](https://github.com/unix3dgforce/lpunpack) script.
+- [@BlackMesa123](https://github.com/BlackMesa123) for his help setting this repo for A52 4G.
