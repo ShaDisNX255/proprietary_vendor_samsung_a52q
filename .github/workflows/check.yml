@@ -82,10 +82,10 @@ jobs:
       - name: Fetch firmware
         if: env.need_update == 1
         run: |
-          if [[ "${{ matrix.model }}" == "SM-A528N" ]]; then
-              imei="354049881234560"
+          if [[ "${{ matrix.model }}" == "SM-A525M" ]]; then
+              imei="351186791234562"
           else
-              imei="352599501234566"
+              imei="352938771234569"
           fi
           samfirm -m ${{ matrix.model }} -r ${{ matrix.region }} -i $imei
 
